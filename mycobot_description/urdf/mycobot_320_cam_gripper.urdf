@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot name="firefighter">
+    <link name="base">
+        <inertial>
+            <origin xyz="0.00864769538073963 0.0501201830062367 -0.0001269252675038" rpy="0 0 0" />
+            <mass value="0.56970595235568" />
+            <inertia ixx="0.000854432628304121" ixy="-2.27886028277217E-05" ixz="7.92812450025781E-08" iyy="0.00063647517455145" iyz="-1.68177277350718E-07" izz="0.000773078477351003" />
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://mycobot_description/meshes/base.STL" />
+            </geometry>
+            <material name="">
+                <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+            </material>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://mycobot_description/meshes/base.STL" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="link1">
+        <inertial>
+            <origin xyz="-0.0229764852615092 -0.0693988337522376 -6.37776381810897E-05" rpy="0 0 0" />
+            <mass value="0.301887728880534" />
+            <inertia ixx="0.000350092302701137" ixy="-5.69640237858692E-05" ixz="-2.65395784957924E-07" iyy="0.000305852557006047" iyz="-3.07057068330416E-07" izz="0.000409310650724837" />
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://mycobot_description/meshes/link_1.STL" />
+            </geometry>
+            <material name="">
+                <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+            </material>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://mycobot_description/meshes/link_1.STL" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="link2">
+        <inertial>
+            <origin xyz="3.69344307860183E-05 0.081364207071556 -0.0364962339199251" rpy="0 0 0" />
+            <mass value="0.369827042467204" />
+            <inertia ixx="0.00136957213034946" ixy="-4.19477008777462E-07" ixz="3.17066412374E-07" iyy="0.000219952881825987" iyz="-0.000122748918780218" izz="0.00143836489391043" />
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://mycobot_description/meshes/link_2.STL" />
+            </geometry>
+            <material name="">
+                <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+            </material>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://mycobot_description/meshes/link_2.STL" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="link3">
+        <inertial>
+            <origin xyz="0.000128045162901544 0.0512525068477688 -0.0325120221562957" rpy="0 0 0" />
+            <mass value="0.301266716820875" />
+            <inertia ixx="0.000970410194369734" ixy="-2.55340572598396E-06" ixz="-7.42044375423772E-08" iyy="0.000146256044113372" iyz="9.03003451793476E-06" izz="0.00101269642178073" />
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://mycobot_description/meshes/link_3.STL" />
+            </geometry>
+            <material name="">
+                <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+            </material>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://mycobot_description/meshes/link_3.STL" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="link4">
+        <inertial>
+            <origin xyz="0.000265082662692994 0.0334463380037113 0.0130845962740105" rpy="0 0 0" />
+            <mass value="0.138639298635822" />
+            <inertia ixx="0.000124610419570482" ixy="-4.93245678053435E-07" ixz="-4.88762988582506E-08" iyy="9.07985520863139E-05" iyz="-2.74497954244676E-05" izz="0.000103054238090649" />
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://mycobot_description/meshes/link_4.STL" />
+            </geometry>
+            <material name="">
+                <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+            </material>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://mycobot_description/meshes/link_4.STL" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="link5">
+        <inertial>
+            <origin xyz="2.23278841472151E-06 0.0410281066595131 0.00683851385393441" rpy="0 0 0" />
+            <mass value="0.223950798585031" />
+            <inertia ixx="0.000190772660657992" ixy="1.18751021122271E-08" ixz="1.55601088172827E-08" iyy="0.000145172982922192" iyz="-1.22311890154089E-05" izz="0.000150100995836041" />
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://mycobot_description/meshes/link_5.STL" />
+            </geometry>
+            <material name="">
+                <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+            </material>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://mycobot_description/meshes/link_5.STL" />
+            </geometry>
+        </collision>
+    </link>
+
+    <link name="link6">
+        <inertial>
+            <origin xyz="-3.06995301368375E-07 0.0102162995717018 -9.99128442441544E-05" rpy="0 0 0" />
+            <mass value="0.0401030543253866" />
+            <inertia ixx="9.6762923694051E-06" ixy="1.0915252597982E-12" ixz="1.32278192667925E-10" iyy="1.75125666482584E-05" iyz="2.04538907434163E-08" izz="9.81088755486887E-06" />
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://mycobot_description/meshes/link_6.STL" />
+            </geometry>
+            <material name="">
+                <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+            </material>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://mycobot_description/meshes/link_6.STL" />
+            </geometry>
+        </collision>
+    </link>
+
+    <link name="gripper_base">
+        <inertial>
+            <origin xyz="-0.00798688220373683 -0.0120842301346442 0.0512045732219854" rpy="0 0 0" />
+            <mass value="0.134693199067573" />
+            <inertia ixx="9.16822440366729E-05" ixy="-2.26725184090963E-06" ixz="-2.52417147986972E-05" iyy="9.17248595574987E-05" iyz="2.48203691389261E-06" izz="9.15296683279762E-05" />
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://mycobot_description/meshes/gripper_base_cam.STL" />
+            </geometry>
+            <material name="">
+                <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+            </material>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://mycobot_description/meshes/gripper_base_cam.STL" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="gripper_left3">
+        <inertial>
+            <origin xyz="-0.00355845256548371 -0.000298990677825101 -0.0278756299470882" rpy="0 0 0" />
+            <mass value="0.00821077129483564" />
+            <inertia ixx="2.24065862151985E-06" ixy="-1.65379908540206E-11" ixz="7.39945002380107E-11" iyy="1.90018900716357E-06" iyz="3.30309798274581E-07" izz="4.09688058940618E-07" />
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://mycobot_description/meshes/gripper_left3.STL" />
+            </geometry>
+            <material name="">
+                <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+            </material>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://mycobot_description/meshes/gripper_left3.STL" />
+            </geometry>
+        </collision>
+    </link>
+    
+    <link name="gripper_left1">
+        <inertial>
+            <origin xyz="0.00318191031113946 0.0117963820236138 0.00342718940899311" rpy="0 0 0" />
+            <mass value="0.0118729349511637" />
+            <inertia ixx="1.03508703899277E-06" ixy="-1.33388291264996E-06" ixz="-1.72099398751629E-09" iyy="3.81061397749657E-06" iyz="-1.20028821999214E-09" izz="4.42845104471327E-06" />
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://mycobot_description/meshes/gripper_left1.STL" />
+            </geometry>
+            <material name="">
+                <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+            </material>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://mycobot_description/meshes/gripper_left1.STL" />
+            </geometry>
+        </collision>
+    </link>
+    
+    <link name="gripper_right3">
+        <inertial>
+            <origin xyz="0.0278756299517241 -0.0036505192380043 -0.000298990729776474" rpy="0 0 0" />
+            <mass value="0.00821077129376719" />
+            <inertia ixx="4.09688058948671E-07" ixy="7.39994076310894E-11" ixz="-3.30309798252761E-07" iyy="2.2406586208928E-06" iyz="1.65430609909643E-11" izz="1.90018900652836E-06" />
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://mycobot_description/meshes/gripper_right3.STL" />
+            </geometry>
+            <material name="">
+                <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+            </material>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://mycobot_description/meshes/gripper_right3.STL" />
+            </geometry>
+        </collision>
+    </link> 
+    <link name="gripper_right1">
+        <inertial>
+            <origin xyz="0.0031818922963909 -0.0117963613233088 0.00352016232501318" rpy="0 0 0" />
+            <mass value="0.0118729653320581" />
+            <inertia ixx="1.03508912571966E-06" ixy="1.33388571859194E-06" ixz="-1.7107343747182E-09" iyy="3.81061488541789E-06" iyz="1.23293358871832E-09" izz="4.42845106710356E-06" />
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://mycobot_description/meshes/gripper_right1.STL" />
+            </geometry>
+            <material name="">
+                <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+            </material>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://mycobot_description/meshes/gripper_right1.STL" />
+            </geometry>
+        </collision>
+    </link>
+
+    <link name="gripper_left2">
+        <inertial>
+            <origin xyz="0.035135 0.004321 -0.014224" rpy="0 0 0" />
+            <mass value="0.0066293" />
+            <inertia ixx="3.7451E-07" ixy="-5.2455E-07" ixz="-1.8743E-07" iyy="2.2876E-06" iyz="-4.7327E-08" izz="2.3864E-06" />
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://mycobot_description/meshes/gripper_left2.STL" />
+            </geometry>
+            <material name="">
+                <color rgba="0.79216 0.81961 0.93333 1" />
+            </material>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://mycobot_description/meshes/gripper_left2.STL" />
+            </geometry>
+        </collision>
+    </link>
+
+    <link name="gripper_right2">
+        <inertial>
+            <origin xyz="0.035135 -0.004321 -0.014224" rpy="0 0 0" />
+            <mass value="0.0066295" />
+            <inertia ixx="3.7452E-07" ixy="5.2455E-07" ixz="-1.8744E-07" iyy="2.2876E-06" iyz="4.7323E-08" izz="2.3864E-06" />
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://mycobot_description/meshes/gripper_right2.STL" />
+            </geometry>
+            <material name="">
+                <color rgba="0.79216 0.81961 0.93333 1" />
+            </material>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://mycobot_description/meshes/gripper_right2.STL" />
+            </geometry>
+        </collision>
+    </link>
+    
+    <joint name="joint2_to_joint1" type="revolute">
+        <origin xyz="0 0 0.096683" rpy="-1.5708 0 -1.5708" />
+        <parent link="base" />
+        <child link="link1" />
+        <axis xyz="0 -1 0" />
+        <limit lower="-2.87" upper="2.87" effort="1000" velocity="0" />
+    </joint>
+    <joint name="joint3_to_joint2" type="revolute">
+        <origin xyz="-0.039863 -0.078717 0" rpy="0 -1.5708 3.14" />
+        <parent link="link1" />
+        <child link="link2" />
+        <axis xyz="0 0 -1" />
+        <limit lower="-2.879" upper="2.879" effort="1000" velocity="0" />
+    </joint>
+    <joint name="joint4_to_joint3" type="revolute">
+        <origin xyz="0 0.135 0" rpy="3.1416 0 -3.1416" />
+        <parent link="link2" />
+        <child link="link3" />
+        <axis xyz="0 0 1" />
+        <limit lower="-2.879" upper="2.879" effort="1000" velocity="0" />
+    </joint>
+    <joint name="joint5_to_joint4" type="revolute">
+        <origin xyz="0 0.12 0" rpy="1.5708 0 -3.1416" />
+        <parent link="link3" />
+        <child link="link4" />
+        <axis xyz="0 1 0" />
+        <limit lower="-2.879" upper="2.879" effort="1000" velocity="0" />
+    </joint>
+    <joint name="joint6_to_joint5" type="revolute">
+        <origin xyz="0 0.047817 0.044983" rpy="1.5708 0 3.1416" />
+        <parent link="link4" />
+        <child link="link5" />
+        <axis xyz="0 1 0" />
+        <limit effort = "1000.0" lower = "-2.96" upper = "2.96" velocity = "0"/>
+    </joint>
+        <joint name="joint6output_to_joint6" type="revolute">
+        <origin xyz="0 0.049717 0.044983" rpy="1.5708 0 3.1416" />
+        <parent link="link5" />
+        <child link="link6" />
+        <axis xyz="0 1 0" />
+        <limit lower="-3.05" upper="3.05" effort="1000" velocity="0" />
+    </joint>
+    <joint name="joint6output_to_gripper_base" type="fixed">
+        <origin xyz="0.030617 0.053717 -0.030618" rpy="0 0.7854 3.1416" />
+        <parent link="link6" />
+        <child link="gripper_base" />
+        <axis xyz="0 0 0" />
+    </joint>
+    <joint name="gripper_controller" type="revolute">
+        <origin xyz="0.02052 -0.033 0.048688" rpy="-2.5731 0.7854 0" />
+        <parent link="gripper_base" />
+        <child link="gripper_left3" />
+        <axis xyz="1 0 0" />
+        <limit lower="0" upper="1.0" effort="1000" velocity="0" />
+    </joint>
+    
+    <joint name="gripper_base_to_gripper_left2" type="revolute">
+        <origin xyz="0.039098 -0.010685 0.066982" rpy="-2.6409 -0.63332 -0.7463" />
+        <parent link="gripper_base" />
+        <child link="gripper_left2" />
+        <limit effort = "1000.0" lower = "-3.141592" upper = "3.141592" velocity = "0"/>
+        <axis xyz="0 0 1" />
+        <mimic joint="gripper_controller" multiplier="1" offset="0" />
+    </joint>
+    
+    <joint name="gripper_left3_to_gripper_left1" type="revolute">
+        <origin xyz="0 0.009756 -0.06" rpy="-1.5708 -0.28451 1.5708" />
+        <parent link="gripper_left3" />
+        <child link="gripper_left1" />
+        <axis xyz="0 0 1" />
+        <limit lower="-3.141592" upper="3.141592" effort="0" velocity="0" />
+        <mimic joint="gripper_controller" multiplier="1" offset="0" />
+    </joint>
+    <joint name="gripper_base_to_gripper_right3" type="revolute">
+        <origin xyz="-0.0053222 -0.033 0.022714" rpy="-1.0704 0.6336 -2.3959" />
+        <parent link="gripper_base" />
+        <child link="gripper_right3" />
+        <axis xyz="0 1 0" />
+        <limit lower="-3.141592" upper="3.141592" effort="1000" velocity="0" />
+        <mimic joint="gripper_controller" multiplier="-1" offset="0" />
+    </joint>
+    <joint name="gripper_base_to_gripper_right2" type="revolute">
+        <origin xyz="-0.023682 -0.010685 0.004202" rpy="-2.6409 0.63332 -2.3953" />
+        <parent link="gripper_base" />
+        <child link="gripper_right2" />
+        <axis xyz="0 0 1" />
+        <limit effort = "1000.0" lower = "-3.141592" upper = "3.141592" velocity = "0"/>
+        <mimic joint="gripper_controller" multiplier="-1" offset="0" />
+    </joint>
+        <joint name="gripper_right3_to_gripper_right1" type="revolute">
+        <origin xyz="0.06 0 0.009756" rpy="-1.5708 -1.2863 -3.1416" />
+        <parent link="gripper_right3" />
+        <child link="gripper_right1" />
+        <axis xyz="0 0 1" />
+        <limit lower="-3.141592" upper="3.141592" effort="0" velocity="0" />
+        <mimic joint="gripper_controller" multiplier="-1" offset="0" />
+    </joint>
+
+</robot>
+

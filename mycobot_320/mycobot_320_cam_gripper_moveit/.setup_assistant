@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: mycobot_description
+    relative_path: urdf/mycobot_320_cam_gripper.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/firefighter.srdf
+  CONFIG:
+    author_name: Jo Sang Yeon
+    author_email: whtkddus159@naver.com
+    generated_timestamp: 1717059499
