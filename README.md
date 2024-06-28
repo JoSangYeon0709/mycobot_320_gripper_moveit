@@ -40,4 +40,4 @@ display_gripper.launch
 에러 발견시 문의
 whtkddus159@naver.com
 
-마지막 수정 2024.06.03
+마지막 수정 2024.06.10
