@@ -2,6 +2,7 @@ mycobot320 moveit 수정본
 
 기존에있는 mycobot_ros는 삭제
 
+pip install pymycobot --upgrade 는 필수
 
 로봇암 + 그리퍼 경우
 터미널1
