@@ -6,10 +6,8 @@ pip install pymycobot --upgrade 는 필수
 
 
 로봇암 + 그리퍼 경우
-
 터미널1
 roslaunch mycobot_320_gripper_moveit mycobot_320_gripper_moveit.launch
-
 터미널2
 rosrun mycobot_320_gripper_moveit sync_plan.py
 
